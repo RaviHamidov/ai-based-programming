@@ -6,22 +6,33 @@ Here usually i write my progress and folder structure for better understanding, 
 
 - JavaScratchCourse ( Folder structure of this repository )
 
-  - Day_001
+  - LabTasks ( Just a Mentor and Teacher's practical tasks)
 
-    - Project_001 ( and every project's comments include their last changes )
-    - Project_002
-    - Task_001
-    - ReadMe.md ( include information about projects etc... )
+    - Task_xx-xx-xx
+    - Task_xx-xx-xx
 
-  - Day_002
+  - LanguageDocumentation ( self-learning Language with Feynman technique )
 
-    - Project_001
-    - Task_001 etc . . .
+    - Doc_xx-xx-xx
+    - Doc_xx-xx-xx
 
-  - ReadMe.md ( and finally this file include
-    - My course program
-    - My road in this time period
-    - My concepts and challanges etc ... )
+  - LanguageLearning ( Learning Language with practical tasks and little projects )
+
+    - Day_001
+
+      - Project_001 ( and every project's comments include their last changes )
+      - Project_002
+
+    - Day_002
+
+      - Project_001
+      - Project_002 etc ...
+
+    - ReadMe.md and finally this file include:
+
+      - My course program
+      - My road in this time period
+      - My concepts and challanges etc ...
 
 ## Explanation about Tasks
 
