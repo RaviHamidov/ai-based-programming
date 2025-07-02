@@ -6,12 +6,13 @@ public class Main {
         This
         is
         multi
+        -
         line
         comment
          */
 
         // 001 with nothing
-        System.out.print("i like pizza !");
+        System.out.print("i like pizza so much!");
         System.out.print("it's really good !");
         // 002 with ln
         System.out.println("i like Burger !");
