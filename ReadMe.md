@@ -25,22 +25,26 @@ Here usually i write my progress and folder structure for better understanding, 
 
 ## Explanation about Tasks
 
-| Lesson's Date          | Teacher ( ✅ / ❌ ) | Mentor   |
-| ---------------------- | ------------------- | -------- |
-| 11.06.2025 `( Teac. )` | [Task]()            | [Task]() |
-| 14.06.2025 `( Teac. )` | [Task]()            | [Task]() |
-| ----------             | ---                 | ---      |
-| 17.06.2025 `( Ment. )` | [Task]()            | [Task]() |
-| 18.06.2025 `( Teac. )` | [Task]()            | [Task]() |
-| 20.06.2025 `( Ment. )` | [Task]()            | [Task]() |
-| 21.06.2025 `( Teac. )` | [Task]()            | [Task]() |
-| ---                    | ---                 | ---      |
-| 24.06.2025 `( Ment. )` | [Task]()            | [Task]() |
-| 25.06.2025 `( Teac. )` | [Task]()            | [Task]() |
-| 01.07.2025 `( Ment. )` | [Task]()            | [Task]() |
-| 02.07.2025 `( Teac. )` | [Task]()            | [Task]() |
-| ---                    | ---                 | ---      |
-| 04.07.2025 `( Ment. )` | [Task]()            | [Task]() |
-| 05.07.2025             | [Task]()            | [Task]() |
+| Lesson's Date          | Teacher ( ✅ / ❌ )                                                                                                                                 | Mentor   |
+| ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| 11.06.2025 `( Teac. )` | [Task: ✅](https://docs.google.com/spreadsheets/d/1ciZbwJsU28qdbG0WWHY_jCyd03SGNJBs/edit?usp=sharing&ouid=115840657660775990580&rtpof=true&sd=true) | ---      |
+| 14.06.2025 `( Teac. )` | Capstone Project: To-Do App                                                                                                                         | ---      |
+| ----------             | ---                                                                                                                                                 | ---      |
+| 17.06.2025 `( Ment. )` | ---                                                                                                                                                 | Task: ❌ |
+| 18.06.2025 `( Teac. )` | Task: ❌                                                                                                                                            | ---      |
+| 20.06.2025 `( Ment. )` | ---                                                                                                                                                 | Task: ❌ |
+| 21.06.2025 `( Teac. )` | Task: ❌                                                                                                                                            | ⚠️       |
+| ---                    | ---                                                                                                                                                 | ---      |
+| 24.06.2025 `( Ment. )` | ---                                                                                                                                                 | ⚠️       |
+| 25.06.2025 `( Teac. )` | Task: ❌                                                                                                                                            | ---      |
+| 01.07.2025 `( Ment. )` | ---                                                                                                                                                 | Task: ❌ |
+| 02.07.2025 `( Teac. )` | Task: ❌                                                                                                                                            | ---      |
+| ---                    | ---                                                                                                                                                 | ---      |
+| 04.07.2025 `( Ment. )` | ---                                                                                                                                                 | Task: ❌ |
+| 05.07.2025 `( Teac. )` | Task: ❌                                                                                                                                            | ---      |
 
-`Note: If the selected day is a teacher's or mentor's  have a class and the student was given an assignment on the specified day, the answer to the assignment is marked with a link, otherwise it is marked ❌`
+- Notes:
+  - Task: ❌ `should be done`
+  - Task: ✅ `done`
+  - --- `null`
+  - ⚠️ `i have some problem here`
