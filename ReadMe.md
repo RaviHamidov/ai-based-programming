@@ -1,5 +1,7 @@
 # JavaScript Scratch Course by LTC Lab
 
+## Explanation about Repository
+
 Here usually i write my progress and folder structure for better understanding, and deep note for the guests `If you want to find what you want, read this file to the end`.
 
 - JavaScratchCourse ( Folder structure of this repository )
@@ -21,11 +23,7 @@ Here usually i write my progress and folder structure for better understanding, 
     - My road in this time period
     - My concepts and challanges etc ... )
 
-<br>
-
----
-
-<br>
+## Explanation about Tasks
 
 | Lesson's Date          | Teacher ( ✅ / ❌ ) | Mentor   |
 | ---------------------- | ------------------- | -------- |
