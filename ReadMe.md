@@ -10,8 +10,5 @@ Here usually i write my progress and folder structure for better understanding
   - Day_002
     - Project_001
     - Project_002
-    - Project_003
   - Day_003
-    - Project_001
-    - Project_002
-    - Project_003
+    - Project_001 etc . . .
