@@ -3,31 +3,30 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws Exception {
         // Compound interest calculator
+        try (Scanner scanner = new Scanner(System.in)) {
 
-        Scanner input = new Scanner(System.in);
+            System.out.println("Welcome to the Compound Interest Calculator!");
+            double principial;
+            double rate;
+            double timesCompounded;
+            int years;
+            double amount;
+            
+            System.out.println("Enter the principal amount: ");
+            principial = scanner.nextDouble();
 
-        double principial;
-        double rate;
-        double timesCompounded;
-        int years;
-        double amount;
-        
-        System.out.print("Enter the principal amount: ");
-        principial = input.nextDouble();
+            System.out.println("Enter the annual interest rate (in %): ");
+            rate = scanner.nextDouble() / 100;
 
-        System.out.print("Enter the annual interest rate (in %): ");
-        rate = input.nextDouble() / 100;
+            System.out.println("Enter the number of times interest is compounded per year: ");
+            timesCompounded = scanner.nextInt();  
 
-        System.out.print("Enter the number of times interest is compounded per year: ");
-        timesCompounded = input.nextInt();  
+            System.out.println("Enter the number of years: ");
+            years = scanner.nextInt();
 
-        System.out.print("Enter the number of years: ");
-        years = input.nextInt();
+            amount = principial * Math.pow((1 + rate / timesCompounded), timesCompounded * years);
 
-        amount = principial * Math.pow((1 + rate / timesCompounded), timesCompounded * years);
-
-        System.out.println("The amount after + " + years + " years is: " + "$" + amount);
-
-        input.close();
+            System.out.println("The amount after + " + years + " years is: " + "$" + amount);
+        }
     }
 }
