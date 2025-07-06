@@ -8,8 +8,9 @@ Here usually i write my progress and folder structure for better understanding, 
 
   - LabTasks ( Just a Mentor and Teacher's practical tasks)
 
-    - Task_xx-xx-xx
-    - Task_xx-xx-xx
+    - [Task_17-06-25](./LabTasks/Task_17-06-25/)
+    - [Task_20-06-25](./LabTasks/Task_20-06-25/)
+    - [Task_01-07-25](./LabTasks/Task_01-07-25/)
 
   - LanguageDocumentation ( self-learning Language with Feynman technique )
 
@@ -19,20 +20,30 @@ Here usually i write my progress and folder structure for better understanding, 
   - LanguageLearning ( Learning Language with practical tasks and little projects )
 
     - Day_001
-
-      - Project_001 ( and every project's comments include their last changes )
-      - Project_002
-
+      - [Project_001](./LanguageLearning/Day_001/Project_001/) `Introduction to Java`
+      - [Project_002](./LanguageLearning/Day_001/Project_002/) `Variables`
     - Day_002
+      - [Project_001](./LanguageLearning/Day_002/Project_001/) `User input methods`
+      - [Project_002](./LanguageLearning/Day_002/Project_002/) `Mad libs game`
+    - Day_003
+      - [Project_001](./LanguageLearning/Day_003/Project_001/) `Arithmetic operators`
+      - [Project_002](./LanguageLearning/Day_003/Project_002/) `Simple shopping card program`
+    - Day_004
+      - [Project_001](./LanguageLearning/Day_004/Project_001/) `If statement`
+      - [Project_002](./LanguageLearning/Day_004/Project_002/) `Random numbers`
+    - Day_005
+      - [Project_001](./LanguageLearning/Day_005/Project_001/) `Math methods`
+      - [Project_002](./LanguageLearning/Day_005/Project_002/) `Compound interest calculator`
 
-      - Project_001
-      - Project_002 etc ...
-
-    - ReadMe.md and finally this file include:
-
-      - My course program
-      - My road in this time period
-      - My concepts and challanges etc ...
+    <!-- - Day_006
+      - [Project_001](./LanguageLearning/Day_006/Project_001/) `null`
+      - [Project_002](./LanguageLearning/Day_006/Project_002/) `null`
+    - Day_007
+      - [Project_001](./LanguageLearning/Day_007/Project_001/) `null`
+      - [Project_002](./LanguageLearning/Day_007/Project_002/) `null`
+    - Day_008
+      - [Project_001](./LanguageLearning/Day_008/Project_001/) `null`
+      - [Project_002](./LanguageLearning/Day_008/Project_002/) `null` -->
 
 ## Explanation about Tasks
 
