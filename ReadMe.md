@@ -8,9 +8,10 @@ Here usually i write my progress and folder structure for better understanding, 
 
   - LabTasks ( Just a Mentor and Teacher's practical tasks)
 
-    - [Task_17-06-25](./LabTasks/Task_17-06-25/)
-    - [Task_20-06-25](./LabTasks/Task_20-06-25/)
-    - [Task_01-07-25](./LabTasks/Task_01-07-25/)
+    - [Task_17-06-25](./LabTasks/000_Task_17-06-25/)
+    - [Task_20-06-25](./LabTasks/001_Task_20-06-25/)
+    - [Task_01-07-25](./LabTasks/002_Task_01-07-25/)
+    - [Task_04-07-25](./LabTasks/003_Task_04-07-25/)
 
   - LanguageDocumentation ( self-learning Language with Feynman technique )
 
