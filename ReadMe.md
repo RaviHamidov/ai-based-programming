@@ -15,8 +15,7 @@ Here usually i write my progress and folder structure for better understanding, 
 
   - LanguageDocumentation ( self-learning Language with Feynman technique )
 
-    - Doc_xx-xx-xx
-    - Doc_xx-xx-xx etc ...
+    - [Git&GitHub](https://github.com/RaviHamidov/JavaScratchCourse/tree/main/LanguageDocumentation/000_Git%26GitHub)
 
   - LanguageLearning ( Learning Language with practical tasks and little projects )
 
