@@ -1,4 +1,4 @@
-# Data Types in Java
+# Data Types
 
 - It's just a storage for collect your information's in storage
 
