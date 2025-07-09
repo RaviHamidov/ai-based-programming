@@ -17,7 +17,7 @@ Here usually i write my progress and folder structure for better understanding, 
 
     - [Git&GitHub](https://github.com/RaviHamidov/JavaScratchCourse/tree/main/LanguageDocumentation/000_Git%26GitHub)
     - [Variables](https://github.com/RaviHamidov/JavaScratchCourse/tree/main/LanguageDocumentation/001_Variables)
-    - [Git&GitHub](https://github.com/RaviHamidov/JavaScratchCourse/tree/main/LanguageDocumentation/002_DataTypes)
+    - [DataTypes](https://github.com/RaviHamidov/JavaScratchCourse/tree/main/LanguageDocumentation/002_DataTypes)
 
   - LanguageLearning ( Learning Language with practical tasks and little projects )
 
