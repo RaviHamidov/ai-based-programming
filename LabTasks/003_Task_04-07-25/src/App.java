@@ -16,7 +16,7 @@ public class App {
         System.out.println("\nWelcome, " + playerName + "! Adventure started!");
         System.out.println("Get ready... The volcano may erupt! \n");
 
-        // 🌋 ZONE 1: Math Canyon
+        // ZONE 1: Math Canyon
         System.out.println("=> Zone 1: Math Canyon");
         System.out.println("Ali is 3 years old, his brother is 2 years younger. When Ali is 10, how old will his brother be ?");
         int answer = player.nextInt();
@@ -28,7 +28,7 @@ public class App {
             energy -= 10;
         }
 
-        // ⛏️ ZONE 2: Dark Cave
+        // ZONE 2: Dark Cave
         System.out.println("\n=> Zone 2: Dark Cave");
         System.out.println("To pass the cave, you have to climb the steps that are equal to the meaning of life...");
         System.out.print("How many steps do you need to climb? ➤ ");
@@ -48,7 +48,7 @@ public class App {
             energy -= 20;
         }
 
-        // 🌉 ZONE 3: Broken Bridge
+        // ZONE 3: Broken Bridge
         System.out.println("\n=> Zone 3: Broken Bridge");
         System.out.print("There are two ways: [L]eft and [R]ight. Which do you choose? ➤ ");
         char yol = player.next().toUpperCase().charAt(0);
@@ -61,7 +61,7 @@ public class App {
             energy -= 20;
         }
 
-        // 🔥 ZONE 4: Volcano Gates
+        // ZONE 4: Volcano Gates
         System.out.println("\n=> Zone 4: Volcano Gates");
         int qapi;
         do {
@@ -87,7 +87,7 @@ public class App {
             }
         } while (qapi!= 3);
 
-        // 🏁 RESULT
+        // RESULT
         System.out.println("\n=> Game Over! " + playerName);
         System.out.println("=> Energy: " + energy);
         System.out.println("=> Bonus: " + bonus); 
