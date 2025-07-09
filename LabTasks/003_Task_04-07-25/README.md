@@ -1,136 +1,136 @@
-## `Deep note:` Diqqetle nezer yetirseniz qeydlerimi goreceksiniz
+## `Deep note:` If you pay attention, you will see my notes
 
-- Plan: `Kod yazmaqa bashlamadan planlanlamaqi ustun tuturam vaxt itkisi olmasin deye`
-  - Ilk novbede her shey ingilisceye cevirmek `Ingilisce inkishafi ucun`
-  - Oyun girish - `🌋 Vulkanik Adadan Qachis oyunu'na Xosh geldiniz `
-  - Ad sorgusu - `Adınızı daxil edin: `
-  - Enerji və xal izleyicisi sistem `Enerji 100 point, Xal 0 point qeyd olunacaq`
-  - Zona 1 – Riyaziyyat sualı
-    - Example: `Eli 3 yashindadir, qardashi ondan 2 yaş kichikdir. Əli 10 yashinda olanda qardashi neche yashinda olacaq?`
-      - `Mentiqin pis deyil ! Enerji -10, Xal +5`
-      - `Mentiq'ivi inkishaf eletdir ! Enerji -10`
-  - Zona 2 – for ilə magarada hereket
-    - Example: `Magarani kecmek ucun 9 addim atmalisan . . .`
-      - `Magarani kechdin ! Enerji -10, Xal +5`
-      - `Magarani keche bilmedin ! Enerji -10`
-  - Zona 3 – Yon sechimi (if/else)
-    - Example: `İki yol var: [S]ol və [S]ağ, Hansını seçirsən ? (Yanlish yol sechsen teleye dusersen !)`
-      - `Tehlukesiz yol ! Xal +10`
-      - `Teleye dushdun! Enerji -20`
-  - Zona 4 – Qapi sechimi (do-while, switch)
-    - Example: `3 qapı var. 1, 2 və 3. Dogru qapını tap !`
-      - `Qapi 1: Bosh bir otaq. Enerji -5`
-      - `Qapi 2: Lava axini ! Enerji -15"`
-      - `Qapi 3: Tecili yardim helikopteri ! ✅`
-  - Son neticeye esaslanan ferqli cixislar (🏆, ⚠️, 💀)
+- Plan: `I prefer to plan before starting to code to avoid wasting time`
+  - First, translate everything into English `For English improvement`
+  - Game intro - `🌋 Welcome to the Escape from Volcanic Island game`
+  - Name prompt - `Enter your name: `
+  - Energy and point tracking system `Energy 100 points, Score 0 points will be noted`
+  - Zone 1 – Math question
+    - Example: `Ali is 3 years old, his brother is 2 years younger. When Ali is 10, how old will his brother be?`
+      - `Not bad logic! Energy -10, Score +5`
+      - `Improve your logic! Energy -10`
+  - Zone 2 – Moving in the cave with for loop
+    - Example: `To pass the cave, you must take 9 steps...`
+      - `You passed the cave! Energy -10, Score +5`
+      - `You couldn't pass the cave! Energy -10`
+  - Zone 3 – Path selection (if/else)
+    - Example: `There are two ways: [L]eft and [R]ight, Which do you choose? (If you choose the wrong way, you will fall into a trap!)`
+      - `Safe way! Score +10`
+      - `You fell into a trap! Energy -20`
+  - Zone 4 – Door selection (do-while, switch)
+    - Example: `There are 3 doors. 1, 2, and 3. Find the correct door!`
+      - `Door 1: An empty room. Energy -5`
+      - `Door 2: Lava flow! Energy -15"`
+      - `Door 3: Emergency rescue helicopter! ✅`
+  - Different endings based on the final result (🏆, ⚠️, 💀)
     - Example:
-      - `1.) MOHTESHEM QACHISH! Qehreman kimi xilas oldun ! (fsyo oyun bitdi get kod yaz biraz !)`
-      - `2.) Zeifsen, Amma sag qaldın !`
-      - `3.) Teesuf ki yandin, tibbi sigortamiz yoxdur ))...`
+      - `1.) GREAT ESCAPE! You survived like a hero! (Game over, go write some code!)`
+      - `2.) You are weak, but you survived!`
+      - `3.) Unfortunately, you burned, and we don't have health insurance...`
 
-# **🧩 : “🌋Vulkanik Adadan Qaçış”**
+# **🧩 : “🌋Escape from the Volcanic Island”**
 
-**🎮 Oyun Hekayəsi :**
+**🎮 Game Story:**
 
-Bir gün gizli bir adada oyandınız…
+One day you wake up on a mysterious island…
 
-Amma bir şey çox yanlışdır.
+But something is very wrong.
 
-Ayaqlarınızın altına yerləşən güclü və aktiv bir vulkan yaxın vaxtlarda püskürməyə başlayacaq!
+A powerful and active volcano beneath your feet is about to erupt soon!
 
-Qaçmaq üçün, dörd təhlükəli zonanı keçməli və adanın şimalında yerləşən təcili yardım helikopterinə çatmalısınız.
+To escape, you must pass through four dangerous zones and reach the emergency rescue helicopter located in the north of the island.
 
-Hər zona öz fərqli çətinliyini təqdim edir:
+Each zone presents its own unique challenge:
 
-- 📊 Riyaziyyat sualları
-- 🧭 Yön seçimləri
-- 🔁 Təkrarlanan maneələr
-- 🚪 Qapı tapmacaları
+- 📊 Math questions
+- 🧭 Path choices
+- 🔁 Repeated obstacles
+- 🚪 Door puzzles
 
-Java bacarıqlarınızı istifadə edərsinizsə, sağ qalacaq və adadan qaçacaqsınız!
+If you use your Java skills, you will survive and escape the island!
 
-**🔧 Nə İstifadə Edəcəksiniz?**
+**🔧 What Will You Use?**
 
-Bu oyun üçün aşağıdakı Java mövzularını istifadə edəcəksiniz:
+For this game, you will use the following Java topics:
 
-| **Java Mövzusu** | **İstifadə məqsədi**                                |
+| **Java Topic**   | **Purpose of Use**                                  |
 | ---------------- | --------------------------------------------------- |
-| Scanner          | İstifadəçidən giriş almaq                           |
-| Primitiv Tipler  | int, char, byte və s. istifadə etmək                |
-| if / else        | Cavablara əsaslanaraq qərar vermək                  |
-| switch-case      | Qapılar və ya yollar arasında seçim etmək           |
-| for döngüsü      | Təkrarlanan hərəkətlər (məsələn, mağarada addımlar) |
-| while, do-while  | Doğru seçim edilənə qədər dövr etmək                |
-| Konsol Çıxışı    | Əyləncəli və cəlbedici mətn əsaslı oyun təcrübəsi   |
+| Scanner          | To get input from the user                          |
+| Primitive Types  | To use int, char, byte, etc.                        |
+| if / else        | To make decisions based on answers                  |
+| switch-case      | To choose between doors or paths                    |
+| for loop         | For repeated actions (e.g., steps in the cave)      |
+| while, do-while  | To loop until the correct choice is made            |
+| Console Output   | For a fun and engaging text-based game experience   |
 
-**🎯 Nə Etməlisiniz**
+**🎯 What Should You Do**
 
-Bir mətn əsaslı macəra oyunu yazmalısınız.
+You should write a text-based adventure game.
 
-Oyun aşağıdakıları daxil edir:
+The game should include:
 
-- Bir hekayə və qərar nöqtələri
-- İstifadəçi girişi
-- Enerji və bal izləmə
-- Əyləncəli çıxışlar ilə emoji və mətnlər
+- A story and decision points
+- User input
+- Energy and score tracking
+- Fun outputs with emojis and texts
 
-⚠️Hər zonada fərqli bir məntiq və ya riyaziyyat tapşırığı olacaq.
+⚠️Each zone will have a different logic or math task.
 
-⚠️Siz hesablamalar edəcək, yolları seçəcək, addımları təkrarlayacaq və dərsdə öyrəndiyiniz bütün bilikləri istifadə edəcəksiniz.
+⚠️You will do calculations, choose paths, repeat steps, and use all the knowledge you learned in class.
 
-⚠️Sonunda isə, son balınıza və qalan enerjinizə əsasən fərqli sonluqlar göstəriləcək:
+⚠️At the end, different endings will be shown based on your final score and remaining energy:
 
-- 🏆 Uğurlu qaçış
-- ⚠️ Zəif amma sağ qalan
-- 💀 Vulkanın içinə itmiş
+- 🏆 Successful escape
+- ⚠️ Weak but survived
+- 💀 Lost in the volcano
 
-**🗺️ Zona Yoxlaması Ümumi Görünüşü**
+**🗺️ General Overview of Zone Checks**
 
-| **Zona**                       | **Tapşırıq Növü**        | **İstifadə olunan Java Mövzuları** |
-| ------------------------------ | ------------------------ | ---------------------------------- |
-| 🌋 Zona 1 – Riyaziyyat Kanyonu | Sadə hesablama sualı     | Scanner, if-else                   |
-| ⛏️ Zona 2 – Qaranlıq Mağara    | Addım-addım dövr, maneə  | for döngüsü, variables             |
-| 🌉 Zona 3 – Qırıq Körpü        | Sol və ya sağ yol seçimi | char, if-else                      |
-| 🔥 Zona 4 – Vulkan Qapıları    | Doğru qapı seçimi dövrü  | do-while, switch-case              |
+| **Zone**                        | **Task Type**            | **Java Topics Used**                |
+| ------------------------------- | ------------------------ | ----------------------------------- |
+| 🌋 Zone 1 – Math Canyon         | Simple calculation       | Scanner, if-else                    |
+| ⛏️ Zone 2 – Dark Cave           | Step-by-step loop, obstacle | for loop, variables              |
+| 🌉 Zone 3 – Broken Bridge       | Left or right path choice| char, if-else                       |
+| 🔥 Zone 4 – Volcano Gates       | Door selection loop      | do-while, switch-case               |
 
-**📌 Öyrənmə Məqsədləri**
+**📌 Learning Objectives**
 
-Bu oyunu tamamladığınızda:
+When you complete this game:
 
-- Scanner istifadə edərək əsas giriş/çıxış praktikasını öyrənəcəksiniz
-- Şərtli məntiqdən istifadə edərək oyun axışını idarə etməyi öyrənəcəksiniz
-- Dövrələri real həyatda tətbiq etməyi öyrənəcəksiniz
-- Dəyişənlərdən istifadə edərək vəziyyət izləməyi öyrənəcəksiniz (bal, enerji)
-- Həqiqi interaktiv konsol oyunu qurmağı öyrənəcəksiniz
-- Java ilə yaradıcı problem həll etmə bacarığınızı inkişaf etdirəcəksiniz!
+- You will learn basic input/output practice using Scanner
+- You will learn to control game flow using conditional logic
+- You will learn to apply loops in real life
+- You will learn to track state using variables (score, energy)
+- You will learn to build a real interactive console game
+- You will improve your creative problem-solving skills with Java!
 
-**✨ Tövsiyələr**
+**✨ Tips**
 
-- Yaradıcı olun! Oyun hekayənizi fərdiləşdirə bilərsiniz.
-- Emoji və dramatik çıxışlar əlavə edərək daha əyləncəli edə bilərsiniz.
-- Kodunuzu təmiz və yaxşı şərh olunmuş saxlayın.
+- Be creative! You can personalize your game story.
+- Add emojis and dramatic outputs to make it more fun.
+- Keep your code clean and well-commented.
 
-**✅ Təqdimat Yoxlama Siyahısı**
+**✅ Submission Checklist**
 
-Oyununuza aşağıdakılar daxil olduğundan əmin olun:
+Make sure your game includes:
 
-- Bir hekayə təqdimatı və ad girişi
-- 4 unikal zona və fərqli məntiq tapşırıqları
-- Bal və enerji izləmə
-- Dövrlər (for, while, do-while)
-- if-else, switch şərtləri
-- Nəticə mesajı ilə yekun nəticə
+- A story introduction and name input
+- 4 unique zones and different logic tasks
+- Score and energy tracking
+- Loops (for, while, do-while)
+- if-else, switch conditions
+- Final result with an ending message
 
 **💡 Bonus :**
 
-- Səs effektləri əlavə edin (mətn şəklində!) aşağıda qeyd olunduğu kimi.
+- Add sound effects (as text!) as shown below.
 
 ```java
 System.out.println(
-"💀 *Grrr...* Vulkanın içində son bir dəfə səslər eşidilir. Sən artıq çox gecikdin...");
+"💀 *Grrr...* Last sounds are heard inside the volcano. You are already too late...");
 
-System.out.println("🌋💥 BOOM! Vulkan güclü şəkildə püskürür! Kül və qaynar lavalar havada uçur!");
+System.out.println("🌋💥 BOOM! The volcano erupts violently! Ash and hot lava fly through the air!");
 ```
 
-- Yenidən başlama seçimi yaradın
-- Özünüz “Qalibsiniz” və ya “Məğlub oldunuz” kimi mesajlarını yaradıcı şəkildə yazın!
+- Create a restart option
+- Write your own creative “You Win” or “You
