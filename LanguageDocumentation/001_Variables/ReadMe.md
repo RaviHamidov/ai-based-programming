@@ -1,4 +1,4 @@
-# Variables - Digital storages
+# Variables
 
 - In simply variables like a label'ed storage box'es in your territory, Each box have a
   - name
