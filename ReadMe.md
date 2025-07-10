@@ -12,6 +12,8 @@ Here usually i write my progress and folder structure for better understanding, 
     - [Task_20-06-25](./LabTasks/001_Task_20-06-25/)
     - [Task_01-07-25](./LabTasks/002_Task_01-07-25/)
     - [Task_04-07-25](./LabTasks/003_Task_04-07-25/)
+    - [Task_04-07-25](./LabTasks/004_Task_09-07-25/)
+    - [Task_04-07-25](./LabTasks/005_Task_12-07-25/)
 
   - LanguageDocumentation ( self-learning Language with Feynman technique )
 
@@ -36,16 +38,18 @@ Here usually i write my progress and folder structure for better understanding, 
     - Day_005
       - [Project_001](./LanguageLearning/Day_005/Project_001/) `Math methods`
       - [Project_002](./LanguageLearning/Day_005/Project_002/) `Compound interest calculator`
-
-    <!-- - Day_006
-      - [Project_001](./LanguageLearning/Day_006/Project_001/) `null`
-      - [Project_002](./LanguageLearning/Day_006/Project_002/) `null`
+    - Day_006
+      - [Project_001](./LanguageLearning/Day_006/Project_001/) `printf ( i don't understand )`
+      - [Project_002](./LanguageLearning/Day_006/Project_002/) `nested if statements`
     - Day_007
       - [Project_001](./LanguageLearning/Day_007/Project_001/) `null`
       - [Project_002](./LanguageLearning/Day_007/Project_002/) `null`
     - Day_008
       - [Project_001](./LanguageLearning/Day_008/Project_001/) `null`
-      - [Project_002](./LanguageLearning/Day_008/Project_002/) `null` -->
+      - [Project_002](./LanguageLearning/Day_008/Project_002/) `null`
+      <!-- - Day_009
+      - [Project_001](./LanguageLearning/Day_009/Project_001/) `null`
+      - [Project_002](./LanguageLearning/Day_009/Project_002/) `null` -->
 
 ## Explanation about Tasks
 
@@ -61,11 +65,19 @@ Here usually i write my progress and folder structure for better understanding, 
 | -----------            | ---                                                                                                                                                 | ---                                                                                               |
 | 24.06.2025 `( Ment. )` | ---                                                                                                                                                 | ---                                                                                               |
 | 25.06.2025 `( Teac. )` | Task: in Progress . . .                                                                                                                             | ---                                                                                               |
+| Off/Day                | ---                                                                                                                                                 | ---                                                                                               |
+| Off/Day                | ---                                                                                                                                                 | ---                                                                                               |
+| -----------            | ---                                                                                                                                                 | ---                                                                                               |
 | 01.07.2025 `( Ment. )` | ---                                                                                                                                                 | [Task: ✅](https://github.com/RaviHamidov/JavaScratchCourse/tree/main/LabTasks/Task_01-07-25)     |
 | 02.07.2025 `( Teac. )` | Task: in Progress . . .                                                                                                                             | ---                                                                                               |
-| -----------            | ---                                                                                                                                                 | ---                                                                                               |
 | 04.07.2025 `( Ment. )` | ---                                                                                                                                                 | [Task: ✅](https://github.com/RaviHamidov/JavaScratchCourse/tree/main/LabTasks/003_Task_04-07-25) |
 | 05.07.2025 `( Teac. )` | Task: in Progress . . .                                                                                                                             | ---                                                                                               |
+| -----------            | ---                                                                                                                                                 | ---                                                                                               |
+| 08.07.2025 `( Teac. )` | Task: in Progress . . .                                                                                                                             | ---                                                                                               |
+| 09.07.2025 `( Ment. )` | ---                                                                                                                                                 | Task: in Progress . . .                                                                           |
+| 11.07.2025 `( Teac. )` | Task: in Progress . . .                                                                                                                             | ---                                                                                               |
+| 12.07.2025 `( Ment. )` | ---                                                                                                                                                 | Task: in Progress . . .                                                                           |
+| -----------            | ---                                                                                                                                                 | ---                                                                                               |
 
 - Notes:
   - Task: ❌ `should be done`
