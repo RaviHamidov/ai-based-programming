@@ -56,8 +56,10 @@
 22. [Variable Scope](./Day_011/Project_001)
 
 - `Day_012`
-39. [Object-Oriented Programming](./Day_012/Project_001)
 
+39. [Object-Oriented Programming](./Day_012/Project_001)
+40. [Constructors](./Day_012/Project_002)
+41. [Overloaded Constructors](./Day_012/Project_003)
 
 <!--
 23. [For Loops](./Day_023/Project_001)
@@ -79,7 +81,7 @@
 
 ---------------------------------------------------
 
-39. [Object-Oriented Programming](./Day_039/Project_001)
+39. [Object-Oriented Programming](./Day_039/Project_001) +
 40. [Constructors](./Day_040/Project_001)
 41. [Overloaded Constructors](./Day_041/Project_001)
 42. [Array of Objects](./Day_042/Project_001)
