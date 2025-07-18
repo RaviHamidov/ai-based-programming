@@ -20,6 +20,10 @@ Here usually i write my progress and folder structure for better understanding, 
     - [Git&GitHub](https://github.com/RaviHamidov/JavaScratchCourse/tree/main/LanguageDocumentation/000_Git%26GitHub)
     - [Variables](https://github.com/RaviHamidov/JavaScratchCourse/tree/main/LanguageDocumentation/001_Variables)
     - [DataTypes](https://github.com/RaviHamidov/JavaScratchCourse/tree/main/LanguageDocumentation/002_DataTypes)
+    - [Operators](https://github.com/RaviHamidov/JavaScratchCourse/tree/main/LanguageDocumentation/003_Operators)
+    - [IfElseSwitch](https://github.com/RaviHamidov/JavaScratchCourse/tree/main/LanguageDocumentation/004_IfElseSwitch)
+    - [Loops](https://github.com/RaviHamidov/JavaScratchCourse/tree/main/LanguageDocumentation/006_Loops)
+    - [Arrays](https://github.com/RaviHamidov/JavaScratchCourse/tree/main/LanguageDocumentation/007_Arrays)
 
   - LanguageLearning ( Learning Language with practical tasks and little projects )
 
