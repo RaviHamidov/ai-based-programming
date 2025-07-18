@@ -1,4 +1,4 @@
-# JavaScript Scratch Course by LTC Lab
+# AI based Programming Course by LTC Lab
 
 ## Explanation about Repository
 
