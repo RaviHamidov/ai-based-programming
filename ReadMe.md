@@ -15,77 +15,11 @@ Here usually i write my progress and folder structure for better understanding, 
     - [Task_04-07-25](./LabTasks/004_Task_09-07-25/)
     - [Task_04-07-25](./LabTasks/005_Task_12-07-25/)
 
-  - LanguageDocumentation ( self-learning Language with Feynman technique )
+  - Lectures ( Just a some documentation which is writed from me after the lesson include what i'm understand about today's topic )
 
-    - [Git&GitHub](https://github.com/RaviHamidov/JavaScratchCourse/tree/main/LanguageDocumentation/000_Git%26GitHub)
-    - [Variables](https://github.com/RaviHamidov/JavaScratchCourse/tree/main/LanguageDocumentation/001_Variables)
-    - [DataTypes](https://github.com/RaviHamidov/JavaScratchCourse/tree/main/LanguageDocumentation/002_DataTypes)
-    - [Operators](https://github.com/RaviHamidov/JavaScratchCourse/tree/main/LanguageDocumentation/003_Operators)
-    - [IfElseSwitch](https://github.com/RaviHamidov/JavaScratchCourse/tree/main/LanguageDocumentation/004_IfElseSwitch)
-    - [Loops](https://github.com/RaviHamidov/JavaScratchCourse/tree/main/LanguageDocumentation/006_Loops)
-    - [Arrays](https://github.com/RaviHamidov/JavaScratchCourse/tree/main/LanguageDocumentation/007_Arrays)
+    - [Git&GitHub](./Lectures/000_Git&GitHub/ReadMe.md)
+    - [Variables](./Lectures/001_Variables/ReadMe.md)
+    - [Data&Types](./Lectures/001_Variables/ReadMe.md)
+    - [Variables](./Lectures/001_Variables/ReadMe.md)
 
-  - LanguageLearning ( Learning Language with practical tasks and little projects )
-
-    - Day_001
-      - [Project_001](./LanguageLearning/Day_001/Project_001/) `Introduction to Java`
-      - [Project_002](./LanguageLearning/Day_001/Project_002/) `Variables`
-    - Day_002
-      - [Project_001](./LanguageLearning/Day_002/Project_001/) `User input methods`
-      - [Project_002](./LanguageLearning/Day_002/Project_002/) `Mad libs game`
-    - Day_003
-      - [Project_001](./LanguageLearning/Day_003/Project_001/) `Arithmetic operators`
-      - [Project_002](./LanguageLearning/Day_003/Project_002/) `Simple shopping card program`
-    - Day_004
-      - [Project_001](./LanguageLearning/Day_004/Project_001/) `If statement`
-      - [Project_002](./LanguageLearning/Day_004/Project_002/) `Random numbers`
-    - Day_005
-      - [Project_001](./LanguageLearning/Day_005/Project_001/) `Math methods`
-      - [Project_002](./LanguageLearning/Day_005/Project_002/) `Compound interest calculator`
-    - Day_006
-      - [Project_001](./LanguageLearning/Day_006/Project_001/) `printf ( i don't understand )`
-      - [Project_002](./LanguageLearning/Day_006/Project_002/) `nested if statements`
-    - Day_007
-      - [Project_001](./LanguageLearning/Day_007/Project_001/) `null`
-      - [Project_002](./LanguageLearning/Day_007/Project_002/) `null`
-    - Day_008
-      - [Project_001](./LanguageLearning/Day_008/Project_001/) `null`
-      - [Project_002](./LanguageLearning/Day_008/Project_002/) `null`
-      <!-- - Day_009
-      - [Project_001](./LanguageLearning/Day_009/Project_001/) `null`
-      - [Project_002](./LanguageLearning/Day_009/Project_002/) `null` -->
-
-## Explanation about Tasks
-
-| Lesson's Date          | Teacher ( ✅ / ❌ )                                                                                                                                 | Mentor                                                                                            |
-| ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
-| 11.06.2025 `( Teac. )` | [Task: ✅](https://docs.google.com/spreadsheets/d/1ciZbwJsU28qdbG0WWHY_jCyd03SGNJBs/edit?usp=sharing&ouid=115840657660775990580&rtpof=true&sd=true) | ---                                                                                               |
-| 14.06.2025 `( Teac. )` | [Task: ✅](https://docs.google.com/spreadsheets/d/1ciZbwJsU28qdbG0WWHY_jCyd03SGNJBs/edit?usp=sharing&ouid=115840657660775990580&rtpof=true&sd=true) | ---                                                                                               |
-| -----------            | ---                                                                                                                                                 | ---                                                                                               |
-| 17.06.2025 `( Ment. )` | ---                                                                                                                                                 | [Task: ✅](https://github.com/RaviHamidov/JavaScratchCourse/tree/main/LabTasks/Task_17-06-25)     |
-| 18.06.2025 `( Teac. )` | [Task: ✅](https://github.com/RaviHamidov/JavaScratchCourse/tree/main/LanguageDocumentation/000_Git%26GitHub)                                       | ---                                                                                               |
-| 20.06.2025 `( Ment. )` | ---                                                                                                                                                 | [Task: ✅](https://github.com/RaviHamidov/JavaScratchCourse/tree/main/LabTasks/Task_20-06-25)     |
-| 21.06.2025 `( Teac. )` | Task: in Progress . . .                                                                                                                             | ---                                                                                               |
-| -----------            | ---                                                                                                                                                 | ---                                                                                               |
-| 24.06.2025 `( Ment. )` | ---                                                                                                                                                 | ---                                                                                               |
-| 25.06.2025 `( Teac. )` | Task: in Progress . . .                                                                                                                             | ---                                                                                               |
-| Off/Day                | ---                                                                                                                                                 | ---                                                                                               |
-| Off/Day                | ---                                                                                                                                                 | ---                                                                                               |
-| -----------            | ---                                                                                                                                                 | ---                                                                                               |
-| 01.07.2025 `( Ment. )` | ---                                                                                                                                                 | [Task: ✅](https://github.com/RaviHamidov/JavaScratchCourse/tree/main/LabTasks/Task_01-07-25)     |
-| 02.07.2025 `( Teac. )` | Task: in Progress . . .                                                                                                                             | ---                                                                                               |
-| 04.07.2025 `( Ment. )` | ---                                                                                                                                                 | [Task: ✅](https://github.com/RaviHamidov/JavaScratchCourse/tree/main/LabTasks/003_Task_04-07-25) |
-| 05.07.2025 `( Teac. )` | Task: in Progress . . .                                                                                                                             | ---                                                                                               |
-| -----------            | ---                                                                                                                                                 | ---                                                                                               |
-| 08.07.2025 `( Teac. )` | Task: in Progress . . .                                                                                                                             | ---                                                                                               |
-| 09.07.2025 `( Ment. )` | ---                                                                                                                                                 | Task: in Progress . . .                                                                           |
-| 11.07.2025 `( Teac. )` | Task: in Progress . . .                                                                                                                             | ---                                                                                               |
-| 12.07.2025 `( Ment. )` | ---                                                                                                                                                 | Task: in Progress . . .                                                                           |
-| -----------            | ---                                                                                                                                                 | ---                                                                                               |
-
-- Notes:
-  - Task: ❌ `should be done`
-  - Task: ✅ `done`
-  - --- `null`
-  - ⚠️ `i have some problem here`
--
+  - Storage ( include some files which is used at the documentations, i'm bring it all this type of things in this folder )
