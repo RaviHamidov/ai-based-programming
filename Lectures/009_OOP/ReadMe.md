@@ -120,21 +120,22 @@
       ```
 
     - Method overriding
+
       > A subclass redefines a method defined in the superclass according to its own needs and it's known as runtime polymorphism
 
-    ```Java
-    class Animal {
-        void makeSound() {
-            System.out.println("Animal makes a sound.");
-        }
-    }
+      ```Java
+      class Animal {
+          void makeSound() {
+              System.out.println("Animal makes a sound.");
+          }
+      }
 
-    class Cat extends Animal {
-        void makeSound() {
-            System.out.println("Cat meows.");
-        }
-    }
-    ```
+      class Cat extends Animal {
+          void makeSound() {
+              System.out.println("Cat meows.");
+          }
+      }
+      ```
 
 ## 3. Advanced OOP Concepts
 
