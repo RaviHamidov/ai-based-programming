@@ -19,7 +19,12 @@ Here usually i write my progress and folder structure for better understanding, 
 
     - [Git&GitHub](./Lectures/000_Git&GitHub/ReadMe.md)
     - [Variables](./Lectures/001_Variables/ReadMe.md)
-    - [Data&Types](./Lectures/001_Variables/ReadMe.md)
-    - [Variables](./Lectures/001_Variables/ReadMe.md)
+    - [Data&Types](./Lectures/002_DataTypes/ReadMe.md)
+    - [Operators](./Lectures/003_Operators/ReadMe.md)
+    - [ControlFlow](./Lectures/004_IfElseSwitch/ReadMe.md)
+    - [Loops](./Lectures/005_Loops/ReadMe.md)
+    - [Arrays](./Lectures/008_Arrays/ReadMe.md)
+    - [OOP](./Lectures/009_OOP/)
+    - [Interfaces](./Lectures/010_Interfaces/)
 
   - Storage ( include some files which is used at the documentations, i'm bring it all this type of things in this folder )
