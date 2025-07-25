@@ -74,27 +74,27 @@
     > this keyword help us to extend parent class's behaviors
   - Superclass (parent) & Subclass (child)
 
-  ```Java
-    class Animal {
-        void eat() {
-            System.out.println("This animal eats food.");
+    ```Java
+        class Animal {
+            void eat() {
+                System.out.println("This animal eats food.");
+            }
         }
-    }
 
-    class Dog extends Animal {
-        void bark() {
-            System.out.println("The dog barks.");
+        class Dog extends Animal {
+            void bark() {
+                System.out.println("The dog barks.");
+            }
         }
-    }
 
-    public class Main {
-        public static void main(String[] args) {
-            Dog myDog = new Dog();
-            myDog.eat();  // Inherited from Animal
-            myDog.bark(); // Defined in Dog
+        public class Main {
+            public static void main(String[] args) {
+                Dog myDog = new Dog();
+                myDog.eat();  // Inherited from Animal
+                myDog.bark(); // Defined in Dog
+            }
         }
-    }
-  ```
+    ```
 
 - 🔹 Polymorphism
 
