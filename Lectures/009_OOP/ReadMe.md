@@ -1,219 +1,109 @@
-# 🧱 Java - Object Oriented Programming (OOP)
+# 📘 OOP Documentation – Başlıklar ve Anahtar Kavramlar
 
-This document summarizes the core concepts of Object-Oriented Programming (OOP) in Java with definitions and code examples.
+> In this document i need to touch & repeat all oop concepts
 
----
+## 1. Introduction to OOP
 
-## 📌 What is OOP?
+- What is Object-Oriented Programming?
 
-**Object-Oriented Programming (OOP)** is a programming paradigm based on the concept of "objects", which contain data (fields) and methods (functions).
+  > oop is a programming paradigm which is based on concepts of "Objects", which are instances of `classes`, allows you to structure your code like real-world models and i want to mention 4 main principles of oop: Encapsulation, Inheritance, Polymorphism, Abstraction
 
----
+- Benefits of OOP
 
-## 🔑 OOP Principles
+  > Modularity, Reusability, Scalability, Maintainability, Encapsulation, RealWorld modeling, Polymorphisim
 
-### 1. Encapsulation 🔐
+- Real-life analogy
 
-> **Encapsulation** is a fundamental principle of Object-Oriented Programming (OOP) that involves hiding the internal structure and data of a class from the outside world, while providing controlled access through public methods.
+  > To understand OOP better, let's look at a real-world example — a Car, For example: Imagine a "Car": You can think of Car as a class, Each specific car you see (Toyota, BMW, etc.) is an object created from that class.
 
-## Key Concepts
+## 2. Core Concepts of OOP
 
-- **Data Hiding**: Making class variables private
-- **Controlled Access**: Using public getter and setter methods
-- **Data Validation**: Adding validation logic in setter methods
+- 🔹 Class
 
-## Implementation
+  - Blueprint for creating objects
 
-### 1. Make Variables Private
-```java
-private String name;
-private int age;
-```
+    > Blueprint is just a plan or template
 
-### 2. Create Public Getter/Setter Methods
-```java
-// Getter method - for reading data
-public String getName() {
-    return name;
-}
+  - Contains fields (variables) and methods (functions)
 
-// Setter method - for writing data
-public void setName(String name) {
-    this.name = name;
-}
-```
+- 🔹 Object
 
-## Complete Example
+  - Instance of a class
 
-```java
-public class Student {
-    // Private variables - cannot be accessed directly
-    private String name;
-    private int age;
-    private double grade;
-    
-    // Getter methods
-    public String getName() {
-        return name;
-    }
-    
-    public int getAge() {
-        return age;
-    }
-    
-    public double getGrade() {
-        return grade;
-    }
-    
-    // Setter methods with validation
-    public void setName(String name) {
-        if (name != null && !name.trim().isEmpty()) {
-            this.name = name;
+    > it's just a plan, and object is a something created with class's plan
+
+  - Represents a real-world entity
+
+- 🔹 Encapsulation
+
+  > in simplfy think it is just pharmacy capsul encapsulated from the other things, and like this rule in program some data named like `private` so that they cannot be changed from anywhere
+
+  - Binding data and methods together
+  - Access modifiers: private, public, protected
+
+    > private: can only be accessed from within the same class, public: can be accessed from anywhere, protected: can be accessed from the same package and subclasses
+
+  - Getters and Setters
+
+    > in these methods we can read private datas
+
+        ``` Java
+        public class Student {
+            private String name;
+
+            public String getName() {
+                return name;
+            }
+
+            public void setName(String newName) {
+                name = newName;
+            }
         }
-    }
-    
-    public void setAge(int age) {
-        if (age > 0 && age < 150) {
-            this.age = age;
-        }
-    }
-    
-    public void setGrade(double grade) {
-        if (grade >= 0 && grade <= 100) {
-            this.grade = grade;
-        }
-    }
-}
-```
+        ```
 
-## Usage Example
+- 🔹 Abstraction
 
-```java
-public class Main {
-    public static void main(String[] args) {
-        Student student = new Student();
-        
-        // Setting values using setter methods
-        student.setName("John Doe");
-        student.setAge(20);
-        student.setGrade(85.5);
-        
-        // Getting values using getter methods
-        System.out.println("Name: " + student.getName());
-        System.out.println("Age: " + student.getAge());
-        System.out.println("Grade: " + student.getGrade());
-        
-        // Direct access to private variables is not allowed
-        // student.name = "Jane"; // This would cause a compile error
-    }
-}
-```
+  - Hiding complex implementation details
+  - Exposing only essential features
+  - Abstract classes and Interfaces
 
-## Benefits of Encapsulation
+- 🔹 Inheritance
 
-### 🔒 **Data Security**
-- Prevents unauthorized access to class data
-- Protects against invalid data assignments
+  - Acquiring properties and behaviors from another class
+  - `extends` keyword
+  - Superclass (parent) & Subclass (child)
 
-### ✅ **Data Validation**
-- Allows validation logic in setter methods
-- Ensures data integrity
+- 🔹 Polymorphism
 
-### 🔄 **Flexibility**
-- Internal implementation can be changed without affecting external code
-- Easy to modify class behavior
+  - Many forms: method overloading & overriding
+  - Allows objects to be treated as instances of their parent class
 
-### 🛠️ **Maintainability**
-- Easier to debug and maintain code
-- Reduces code complexity
+## 3. Advanced OOP Concepts
 
-### 📊 **Control**
-- Full control over how data is accessed and modified
-- Can implement read-only or write-only properties
+- Constructor and Overloaded Constructor
+- this and super keywords
+- Static members
+- Final keyword
+- Composition vs Inheritance
+- Aggregation
 
-## Best Practices
+## 4. Access Modifiers
 
-1. **Always make instance variables private**
-2. **Provide public getter/setter methods only when needed**
-3. **Add validation logic in setter methods**
-4. **Use meaningful names for getter/setter methods**
-5. **Consider using builder pattern for complex objects**
+- public, private, protected, and default
+- How they affect visibility
 
-## Common Naming Conventions
+## 5. Interface vs Abstract Class
 
-- **Getter**: `getName()`, `getAge()`, `isActive()` (for boolean)
-- **Setter**: `setName(String name)`, `setAge(int age)`
+- Differences and use cases
+- When to use which?
 
-## Conclusion
+## 6. Real-world OOP Example
 
-Encapsulation is a cornerstone of good object-oriented design. It promotes code security, maintainability, and flexibility by controlling how data is accessed and modified within your classes.
+- Mini project or code snippet demonstrating OOP in action
 
-<hr>
-2. Inheritance 👨‍👧
-   Inheritance allows a class (child) to inherit fields and methods from another class (parent).
+## 7. OOP Best Practices
 
-✔️ Key Concepts:
-extends keyword
-
-Code reuse and hierarchy
-9
-```
-public class Animal {
-public void makeSound() {
-System.out.println("Some sound...");
-}
-}
-
-public class Dog extends Animal {
-@Override
-public void makeSound() {
-System.out.println("Woof!");
-}
-}
-```
-
-3.  Polymorphism 🎭
-    Polymorphism means "many forms". It allows methods to behave differently based on the object that is calling them.
-
-✔️ Key Concepts:
-Method Overriding
-
-Method Overloading
-
-```
-// Overriding
-Animal myDog = new Dog();
-myDog.makeSound(); // Outputs: Woof!
-
-// Overloading
-public void print(int x) {}
-public void print(String x) {}
-```
-
-4. Abstraction 🌫️
-   Abstraction hides complex implementation details and shows only essential features of an object.
-
-✔️ Key Concepts:
-Abstract classes (abstract)
-
-Interfaces
-
-```
-abstract class Shape {
-abstract void draw();
-}
-
-class Circle extends Shape {
-void draw() {
-System.out.println("Drawing circle");
-}
-}
-
-```
-
-🧠 Summary Table
-Principle Description Java Feature
-Encapsulation Data hiding & access control private, get/set
-Inheritance Reuse behavior from parent class extends
-Polymorphism One interface, many implementations @Override, overloading
-Abstraction Hiding internal complexity abstract, interface
+- SOLID Principles (Single Responsibility, Open/Closed, etc.)
+- DRY (Don't Repeat Yourself)
+- Reusability
+- Maintainability
