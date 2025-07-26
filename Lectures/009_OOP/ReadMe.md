@@ -293,6 +293,11 @@
   | `final` method   | Override edilə bilməz, ancaq overload edile biler |
   | `final` class    | Extend (miras) edilə bilməz                       |
 
+<hr/>
+
+> I will finsh the document after the tasks
+
+<hr/>
 - Composition vs Inheritance
 - Aggregation
 
