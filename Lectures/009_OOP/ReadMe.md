@@ -307,73 +307,73 @@
 - How they affect visibility
 
 ## 5. Interface vs Abstract Class
-  - Interface
 
-    **In Java, an Interface** is a **template** that defines what functions a class should have. It only contains method signatures; **how these methods work is determined by the class that implements the interface**.
+- Interface
 
-    > Simply put: `Interface` tells you "What you should do", but not "How you should do it".
+  **In Java, an Interface** is a **template** that defines what functions a class should have. It only contains method signatures; **how these methods work is determined by the class that implements the interface**.
 
-    - Created using the `interface` keyword
-    - A class can implement more than one interface
-    - Provides 100% abstraction. For example, think about using a SmartPhone with various applications. You use these apps, but you don't care how they are made or how they work internally. In a way, this is like the "interface" for a human.
+  > Simply put: `Interface` tells you "What you should do", but not "How you should do it".
 
-    ```Java
-    interface Car {
-        void startEngine();
-        void accelerate();
-        void brake();
-    }
+  - Created using the `interface` keyword
+  - A class can implement more than one interface
+  - Provides 100% abstraction. For example, think about using a SmartPhone with various applications. You use these apps, but you don't care how they are made or how they work internally. In a way, this is like the "interface" for a human.
 
-    class Sedan implements Car {
+  ```Java
+  interface Car {
+      void startEngine();
+      void accelerate();
+      void brake();
+  }
 
-        public void startEngine() {
-            System.out.println("Sedan engine started.");
-        }
+  class Sedan implements Car {
 
-        public void accelerate() {
-            System.out.println("Sedan is accelerating smoothly.");
-        }
+      public void startEngine() {
+          System.out.println("Sedan engine started.");
+      }
 
-        public void brake() {
-            System.out.println("Sedan is slowing down.");
-        }
-    }
+      public void accelerate() {
+          System.out.println("Sedan is accelerating smoothly.");
+      }
 
-    class SportCar implements Car {
+      public void brake() {
+          System.out.println("Sedan is slowing down.");
+      }
+  }
 
-        public void startEngine() {
-            System.out.println("SportCar engine roars to life!");
-        }
+  class SportCar implements Car {
 
-        public void accelerate() {
-            System.out.println("SportCar accelerates like a rocket!");
-        }
+      public void startEngine() {
+          System.out.println("SportCar engine roars to life!");
+      }
 
-        public void brake() {
-            System.out.println("SportCar brakes instantly.");
-        }
-    }
+      public void accelerate() {
+          System.out.println("SportCar accelerates like a rocket!");
+      }
 
-    public class Main {
-        public static void main(String[] args) {
-            Car mySedan = new Sedan();
-            Car mySportCar = new SportCar();
+      public void brake() {
+          System.out.println("SportCar brakes instantly.");
+      }
+  }
 
-            System.out.println("--- Sedan ---");
-            mySedan.startEngine();
-            mySedan.accelerate();git 
-            mySedan.brake();
+  public class Main {
+      public static void main(String[] args) {
+          Car mySedan = new Sedan();
+          Car mySportCar = new SportCar();
 
-            System.out.println("\n--- SportCar ---");
-            mySportCar.startEngine();
-            mySportCar.accelerate();
-            mySportCar.brake();
-        }
-    }
-    ```
+          System.out.println("--- Sedan ---");
+          mySedan.startEngine();
+          mySedan.accelerate();git
+          mySedan.brake();
 
+          System.out.println("\n--- SportCar ---");
+          mySportCar.startEngine();
+          mySportCar.accelerate();
+          mySportCar.brake();
+      }
+  }
+  ```
 
-  - Abstract Class
+- Abstract Class ?
 
 - Differences and use cases
 - When to use which?
