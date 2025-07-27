@@ -182,7 +182,6 @@
 
 - What is the difference between `constructors` and `methods`?
 
-  ```markdown
   | Feature                 | Constructor                                                                             | Method                                                   |
   | ----------------------- | --------------------------------------------------------------------------------------- | -------------------------------------------------------- |
   | 🔹 **Purpose**          | Used to create a new object                                                             | Used to define the behavior (functionality) of an object |
@@ -191,7 +190,6 @@
   | 🔹 **How it is called** | Called automatically when a new object is created (with `new`)                          | Called manually: `object.methodName()`                   |
   | 🔹 **Overloading**      | **Yes**, you can have multiple constructors with different parameters                   | Yes, methods can also be overloaded                      |
   | 🔹 **Inheritance**      | Constructors are **not inherited**, but parent constructor can be called with `super()` | Methods **are inherited and can be overridden**          |
-  ```
 
 - this and super keywords
 
@@ -265,29 +263,36 @@
 
   - Defines using the `static` keyword, Only **one copy** exists all objects of the class (shared), Accesed using the class name, not through an object
 
-  ```Java
-  class Counter {
-    static int count = 0; // static member
+    ```Java
+    class Counter {
+      static int count = 0; // static member
 
-    Counter() {
-      count++; // count increase for the all objects
-      System.out.println(count);
+      Counter() {
+        count++; // count increase for the all objects
+        System.out.println(count);
+      }
     }
-  }
 
-  public class Main {
-    public static void main(String[] args) {
-        Counter c1 = new Counter(); // 1
-        Counter c2 = new Counter(); // 2
-        Counter c3 = new Counter(); // 3
+    public class Main {
+      public static void main(String[] args) {
+          Counter c1 = new Counter(); // 1
+          Counter c2 = new Counter(); // 2
+          Counter c3 = new Counter(); // 3
+      }
     }
-  }
 
-  ```
+    ```
 
   Note: `static` keyword tips, Useful for storing shared data (like counters, configurations). Used in utility or helper methods (Math.random(), Collections.sort()).
 
 - Final keyword
+
+  | İstifadə         | Mənası                                            |
+  | ---------------- | ------------------------------------------------- |
+  | `final` variable | Dəyəri dəyişməz                                   |
+  | `final` method   | Override edilə bilməz, ancaq overload edile biler |
+  | `final` class    | Extend (miras) edilə bilməz                       |
+
 - Composition vs Inheritance
 - Aggregation
 
