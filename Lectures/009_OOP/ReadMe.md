@@ -141,43 +141,56 @@
 
 - Constructor and Overloaded Constructor
 
-- Constructor
+  - Constructor
 
-  > it's a special methhod that is automaticly called when an object is created, it has name **same name as the class** and **does not have a return type** and it used to **initialize objects** with the default or initial values
+    > it's a special methhod that is automaticly called when an object is created, it has name **same name as the class** and **does not have a return type** and it used to **initialize objects** with the default or initial values
 
-  ```Java
-  class Person {
-  String name;
-      // Constructor
-      Person() {
-          name = "Unknown";
-      }
-  }
-  ```
-
-- Overloaded Constructor
-
-  > Means that having more than one contructor in the same class with different parametrs, it allows objects to be initialized in multiple ways
-
-  ```Java
+    ```Java
     class Person {
-        String name;
-        int age;
-
-        // Default constructor
+    String name;
+        // Constructor
         Person() {
             name = "Unknown";
-            age = 0;
         }
-
-        // Overloaded constructor
-        Person(String name, int age) {
-            this.name = name;
-            this.age = age;
-        }
-
     }
+    ```
 
+  - Overloaded Constructor
+
+    > Means that having more than one contructor in the same class with different parametrs, it allows objects to be initialized in multiple ways
+
+    ```Java
+      class Person {
+          String name;
+          int age;
+
+          // Default constructor
+          Person() {
+              name = "Unknown";
+              age = 0;
+          }
+
+          // Overloaded constructor
+          Person(String name, int age) {
+              this.name = name;
+              this.age = age;
+          }
+
+      }
+
+    ```
+
+- What is the difference between `constructors` and `methods`?
+
+  ```markdown
+  | Feature                 | Constructor                                                                             | Method                                                   |
+  | ----------------------- | --------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+  | 🔹 **Purpose**          | Used to create a new object                                                             | Used to define the behavior (functionality) of an object |
+  | 🔹 **Name**             | Must have the **same name as the class**                                                | Can have any name                                        |
+  | 🔹 **Return type**      | **No return type**, not even `void`                                                     | Must have a return type (`void`, `int`, `String`, etc.)  |
+  | 🔹 **How it is called** | Called automatically when a new object is created (with `new`)                          | Called manually: `object.methodName()`                   |
+  | 🔹 **Overloading**      | **Yes**, you can have multiple constructors with different parameters                   | Yes, methods can also be overloaded                      |
+  | 🔹 **Inheritance**      | Constructors are **not inherited**, but parent constructor can be called with `super()` | Methods **are inherited and can be overridden**          |
   ```
 
 - this and super keywords
@@ -213,7 +226,67 @@
 
     ```
 
+  - `super` keyword
+
+    > refers to **parent (superclass)** of the current object, Used to acces superclass **methods or constructor** and helps to override methods properly and call parent class contructors
+
+    ```Java
+    class Animal {
+      Animal() {
+        System.out.println("Animal constructor called");
+      }
+    }
+
+    class Dog extends Animal {
+      Dog() {
+        super(); // Calls the constructor of Animal
+        System.out.println("Dog constructor called");
+      }
+    }
+
+    ```
+
+    ```Java
+    class Animal {
+    void makeSound() {
+        System.out.println("Some sound");
+      }
+    }
+
+    class Dog extends Animal {
+      void makeSound() {
+        super.makeSound(); // Calls the Animal class method
+        System.out.println("Dog barks");
+      }
+    }
+    ```
+
 - Static members
+
+  - Defines using the `static` keyword, Only **one copy** exists all objects of the class (shared), Accesed using the class name, not through an object
+
+  ```Java
+  class Counter {
+    static int count = 0; // static member
+
+    Counter() {
+      count++; // count increase for the all objects
+      System.out.println(count);
+    }
+  }
+
+  public class Main {
+    public static void main(String[] args) {
+        Counter c1 = new Counter(); // 1
+        Counter c2 = new Counter(); // 2
+        Counter c3 = new Counter(); // 3
+    }
+  }
+
+  ```
+
+  Note: `static` keyword tips, Useful for storing shared data (like counters, configurations). Used in utility or helper methods (Math.random(), Collections.sort()).
+
 - Final keyword
 - Composition vs Inheritance
 - Aggregation
