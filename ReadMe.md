@@ -8,7 +8,7 @@ Here usually i write my progress and folder structure for better understanding, 
 
   - 000_lectures ( just a some documentation which is writed from me after the lesson include what i'm understand about today's topic )
 
-    - 001_documents
+    - 000_documents
       - readme.md
     - readme.md
 
