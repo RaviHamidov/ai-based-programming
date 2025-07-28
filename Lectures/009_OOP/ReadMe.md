@@ -373,7 +373,7 @@
   }
   ```
 
-- Abstract Class ?
+- Abstract Class 
 
 - Differences and use cases
 - When to use which?
