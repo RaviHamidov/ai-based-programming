@@ -8,20 +8,33 @@ Here usually i write my progress and folder structure for better understanding, 
 
   - LabTasks ( Just a Mentor and Teacher's practical tasks)
 
-    - [Task_17-06-25](./LabTasks/000_Task_17-06-25/)
-    - [Task_20-06-25](./LabTasks/001_Task_20-06-25/)
-    - [Task_01-07-25](./LabTasks/002_Task_01-07-25/)
-    - [Task_04-07-25](./LabTasks/003_Task_04-07-25/)
-    - [Task_04-07-25](./LabTasks/004_Task_09-07-25/)
-    - [Task_04-07-25](./LabTasks/005_Task_12-07-25/)
+    - [class-task_17-06-25](./LabTasks/000_Task_17-06-25/) +
+    - [home-task_17-06-25](./LabTasks/000_Task_17-06-25/) +
+
+    - [class-task_20-06-25](./LabTasks/001_Task_20-06-25/) +
+    - [home-task_20-06-25](./LabTasks/001_Task_20-06-25/) +
+
+    - [class-task_01-07-25](./LabTasks/002_Task_01-07-25/) +
+    - [home-task_01-07-25](./LabTasks/002_Task_01-07-25/) +
+
+    - [class-task_04-07-25](./LabTasks/003_Task_04-07-25/) +
+    - [home-task_04-07-25](./LabTasks/003_Task_04-07-25/) +
+
+    - [class-task_08-07-25](./LabTasks/004_Task_08-07-25/) 
+    - [home-task_08-07-25](./LabTasks/004_Task_08-07-25/) 
+
+    - [class-task_11-07-25](./LabTasks/005_Task_11-07-25/) 
+    - [home-task_11-07-25](./LabTasks/005_Task_11-07-25/) 
+
+
 
   - Lectures ( Just a some documentation which is writed from me after the lesson include what i'm understand about today's topic )
 
-    - [Git&GitHub](./Lectures/000_Git&GitHub/ReadMe.md)
+    - [Git & GitHub](./Lectures/000_Git&GitHub/ReadMe.md)
     - [Variables](./Lectures/001_Variables/ReadMe.md)
-    - [Data&Types](./Lectures/002_DataTypes/ReadMe.md)
+    - [Data & Types](./Lectures/002_DataTypes/ReadMe.md)
     - [Operators](./Lectures/003_Operators/ReadMe.md)
-    - [ControlFlow](./Lectures/004_IfElseSwitch/ReadMe.md)
+    - [Control Flow](./Lectures/004_IfElseSwitch/ReadMe.md)
     - [Loops](./Lectures/005_Loops/ReadMe.md)
     - [Arrays](./Lectures/008_Arrays/ReadMe.md)
     - [OOP](./Lectures/009_OOP/)
