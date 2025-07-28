@@ -170,7 +170,7 @@
 
 ### 2. Core Concepts of OOP
 
-- 🔹 Class
+- Class
 
   - Blueprint for creating objects
 
@@ -178,7 +178,7 @@
 
   - Contains fields (variables) and methods (functions)
 
-- 🔹 Object
+- Object
 
   - Instance of a class
 
@@ -186,7 +186,7 @@
 
   - Represents a real-world entity
 
-- 🔹 Encapsulation
+- Encapsulation
 
   > in simplfy think it is just pharmacy capsul encapsulated from the other things, and like this rule in program some data named like `private` so that they cannot be changed from anywhere
 
@@ -213,13 +213,13 @@
     }
     ```
 
-- 🔹 Abstraction
+- Abstraction
 
   - Hiding complex implementation details
   - Exposing only essential features
   - Abstract classes and Interfaces
 
-- 🔹 Inheritance
+- Inheritance
 
   - Acquiring properties and behaviors from another class
   - `extends` keyword
@@ -248,7 +248,7 @@
         }
     ```
 
-- 🔹 Polymorphism
+- Polymorphism
 
   > It means **"many forms"** — that is, the ability to use the same method in different ways.
 
@@ -334,14 +334,14 @@
 
 - What is the difference between `constructors` and `methods`?
 
-  | Feature                 | Constructor                                                                             | Method                                                   |
-  | ----------------------- | --------------------------------------------------------------------------------------- | -------------------------------------------------------- |
-  | 🔹 **Purpose**          | Used to create a new object                                                             | Used to define the behavior (functionality) of an object |
-  | 🔹 **Name**             | Must have the **same name as the class**                                                | Can have any name                                        |
-  | 🔹 **Return type**      | **No return type**, not even `void`                                                     | Must have a return type (`void`, `int`, `String`, etc.)  |
-  | 🔹 **How it is called** | Called automatically when a new object is created (with `new`)                          | Called manually: `object.methodName()`                   |
-  | 🔹 **Overloading**      | **Yes**, you can have multiple constructors with different parameters                   | Yes, methods can also be overloaded                      |
-  | 🔹 **Inheritance**      | Constructors are **not inherited**, but parent constructor can be called with `super()` | Methods **are inherited and can be overridden**          |
+  | Feature              | Constructor                                                                             | Method                                                   |
+  | -------------------- | --------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+  | **Purpose**          | Used to create a new object                                                             | Used to define the behavior (functionality) of an object |
+  | **Name**             | Must have the **same name as the class**                                                | Can have any name                                        |
+  | **Return type**      | **No return type**, not even `void`                                                     | Must have a return type (`void`, `int`, `String`, etc.)  |
+  | **How it is called** | Called automatically when a new object is created (with `new`)                          | Called manually: `object.methodName()`                   |
+  | **Overloading**      | **Yes**, you can have multiple constructors with different parameters                   | Yes, methods can also be overloaded                      |
+  | **Inheritance**      | Constructors are **not inherited**, but parent constructor can be called with `super()` | Methods **are inherited and can be overridden**          |
 
 - this and super keywords
 
