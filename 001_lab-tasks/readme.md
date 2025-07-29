@@ -32,8 +32,8 @@
 
   - 006_task_11-07-25
 
-    - [001_class-task](./000_task_11-07-25/001_class-task/)
-    - [002_home-task](./000_11-07-25/002_home-task/)
+    - [001_class-task](./000_task_11-07-25/001_class-task/) / `Student with Constructor and Method`, `Book with Getters and Setters`, `Create Multiple Car Details`
+    - [002_home-task](./000_11-07-25/002_home-task/) `Car Manufactury`
 
   - 007_task_15-07-25
 
