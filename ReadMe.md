@@ -31,3 +31,4 @@ Here usually i write my progress and folder structure for better understanding, 
 
 
 not do it something 06.08
+not do it something 07.08
