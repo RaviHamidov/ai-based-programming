@@ -1,5 +1,5 @@
 
-public class Car {
+public class Car implements Serviceable {
 
     private String brand;
     private String model;
@@ -38,5 +38,19 @@ public class Car {
 
     public void displayInfo() {
         System.out.println("Avtomobil: " + brand + " " + model + ", Istehsal ili: " + year + ".");
+    }
+
+    @Override
+    public void performInspection() {
+        System.out.println("Inspection performed for " + brand + " " + model + ".");
+    }
+
+    @Override
+    public double calculateServiceCost() {
+        double baseCost = 100.0;
+        if (year < 2015) {
+            baseCost += 50.0;
+        }
+        return baseCost;
     }
 }

@@ -6,7 +6,7 @@ public class UserInterface {
     private Scanner scanner;
     private TodoManager todoManager;
 
-    public UserInterface() {
+    public UserInterface() { 
         this.scanner = new Scanner(System.in);
         this.todoManager = new TodoManager(10);
     }
