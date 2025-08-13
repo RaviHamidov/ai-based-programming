@@ -16,5 +16,14 @@ public class App {
         for (int k = 0; k <= 10; k++) {
             System.out.println("I am learning Java");
         }
+        // Task 004 - Generate a random number between 0 and 9 and print it.
+        int randomNumber = (int) (Math.random() * 10);
+        System.out.println("Random number is: " + randomNumber);
+        // Task 005 - Use a loop to generate 10 random numbers between 1 and 100. Print each one.
+        for (int i = 0; i < 10; i++) {
+            int randomNum = (int) (Math.random() * 100) + 1;
+            System.out.println("Random number " + (i + 1) + ": " + randomNum);
+        }
+        
     }
 }
