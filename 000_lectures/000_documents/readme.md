@@ -22,7 +22,7 @@
   - This command helps you to push your works to the remote repository
 
 <div style="width:100vw; heigth:200px; display: flex; justify-content: start; align-items: center; margin-top:3rem; ">
-    <img style="width:60vw;" src="../../002_storage/000_git-structure.png" alt="GitStructure"/>
+    <img style="width:60vw;" src="../../003_storage/000_git-structure.png" alt="GitStructure"/>
 </div>
 
 <!-- topic_002 -->
