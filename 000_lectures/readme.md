@@ -7,4 +7,4 @@
   - [Control Flow](./001_documents#if-else-switch)
   - [Loops](./001_documents#loops)
   - [Arrays](./001_documents#arrays)
-  - [OOP](./001_documents#object-oriented-programming)
+  - [OOP](./001_documents#)
