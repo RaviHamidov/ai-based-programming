@@ -27,6 +27,4 @@ Here usually i write my progress and folder structure for better understanding, 
   - 002_storage ( include some files which is used at the documentations, i'm bring it all this type of things in this folder )
     - 000_example.jpg
     - 001_example.pdf
-    - 002_example.rar 
-
-Sum of the Lengths of Strings in an Array
+    - 002_example.rar
