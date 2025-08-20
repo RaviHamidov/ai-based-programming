@@ -156,7 +156,33 @@ public class Main {
     }
 }
 ```
+
 ### Addim 4: `throws` Acar sozu
 
-bu keyword'un megzini anlamadi
+`throws` bir metodun imzasında istifadə olunan və həmin metodun hansı növ istisnaları (exceptions) ata biləcəyini, lakin özünün idarə etməyəcəyini bildirən bir açar sözdür.
 
+```Java
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class ThrowsExample {
+
+    public static String readFirstLineFromFile(String filePath) throws IOException {
+        try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
+            return reader.readLine();
+        }
+    }
+
+    public static void main(String[] args) {
+        String faylYolu = "sample.txt";
+
+        try {
+            String ilkSetir = readFirstLineFromFile(faylYolu);
+            System.out.println("Faylın ilk sətri: " + ilkSetir);
+        } catch (IOException e) {
+            System.err.println("Xəta baş verdi: Fayl oxuna bilmədi. Səbəb: " + e.getMessage());
+        }
+    }
+}
+```
