@@ -186,3 +186,7 @@ public class ThrowsExample {
     }
 }
 ```
+
+### Addim 5: `throwable` Acar sozu
+
+`Throwable`, proqramda baş verə biləcək bütün problemlərin (`Error` və `Exception`) ümumi tipidir.
