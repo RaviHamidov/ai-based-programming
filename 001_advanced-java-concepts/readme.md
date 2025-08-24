@@ -192,5 +192,3 @@ public class ThrowsExample {
 `Throwable`, proqramda baş verə biləcək bütün problemlərin (`Error` və `Exception`) ümumi tipidir.
 
 ## Java Memory Allocation: Heap and Stack
-
-###
