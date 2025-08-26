@@ -287,3 +287,12 @@ Umumen Java'da giris cixis emeliyyatlari stream(axin) vasitesi ile heyata keciri
 | **Performans** | Yavas                                   | Cox Suretli                                     |
 | **Emeliyyat**  | Her kicik data ucun bir disk emeliyyati | Datalari yigib bir defeye boyuk disk emeliyyati |
 | **Prinsip**    | Bir-bir islemek                         | Toplu sekilde islemek                           |
+
+> Byte stream / Character stream
+
+| Xüsusiyyət        | Byte Stream (Bayt Axını)                 | Character Stream (Simvol Axını)                 |
+| :---------------- | :--------------------------------------- | :---------------------------------------------- |
+| **Əsas Vahid**    | **Bayt** (8 bit)                         | **Simvol** (`char`, adətən 16 bit)              |
+| **Məqsəd**        | Hər növ fayl (şəkil, səs, video, mətn)   | **Yalnız mətn** faylları                        |
+| **Kodlaşdırma**   | Simvol kodlaşdırmasından **xəbərsizdir** | Simvol kodlaşdırmasını **avtomatik idarə edir** |
+| **Əsas Siniflər** | `InputStream` / `OutputStream`           | `Reader` / `Writer`                             |
