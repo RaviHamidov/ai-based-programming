@@ -264,4 +264,26 @@ Bir Java programi ishe dushduk'de JVM onun uchun bir neche ferqli sahede yaddash
 
 ## Java Input/Output streams
 
-Java'da Input/Output streams movzu'su nisbeten ezbercilik olduqu uchun doc yazmaqa ehtiyac duymadim.
+Umumen Java'da giris cixis emeliyyatlari stream vasitesi ile heyata kecirilir
+
+> File sinifi
+
+- `exists()`: Faylin ve ya qovlugun movcud olub-olmadigini yoxlayir (`boolean` qaytarir).
+- `createNewFile()`: Yeni, bos bir fayl yaradir.
+- `mkdir()`: Yeni bir qovluq yaradir.
+- `mkdirs()`: Lazim gelerse, butun ust qovluqlarla birlikde yeni bir qovluq yaradir.
+- `getName()`: Faylin ve ya qovlugun adini qaytarir.
+- `getAbsolutePath()`: Faylin tam yolunu qaytarir.
+- `length()`: Faylin olcusunu baytla qaytarir.
+- `isDirectory()`: Obyektin qovluq olub-olmadigini yoxlayir.
+- `isFile()`: Obyektin fayl olub-olmadigini yoxlayir.
+- `listFiles()`: Qovlugun icindeki butun fayl ve qovluqlari `File` obyektleri massivi seklinde qaytarir.
+- `delete()`: Fayli ve ya qovlugu silir
+
+> FileReader, FileWriter ve BufferedWriter, BufferedReader
+
+| Xususiyyet     | "Buffersiz" (`FileReader`/`FileWriter`) | "Bufferli" (`BufferedReader`/`BufferedWriter`)  |
+| :------------- | :-------------------------------------- | :---------------------------------------------- |
+| **Performans** | Yavas                                   | Cox Suretli                                     |
+| **Emeliyyat**  | Her kicik data ucun bir disk emeliyyati | Datalari yigib bir defeye boyuk disk emeliyyati |
+| **Prinsip**    | Bir-bir islemek                         | Toplu sekilde islemek                           |
