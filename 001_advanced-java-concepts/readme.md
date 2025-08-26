@@ -264,7 +264,7 @@ Bir Java programi ishe dushduk'de JVM onun uchun bir neche ferqli sahede yaddash
 
 ## Java Input/Output streams
 
-Umumen Java'da giris cixis emeliyyatlari stream vasitesi ile heyata kecirilir
+Umumen Java'da giris cixis emeliyyatlari stream(axin) vasitesi ile heyata kecirilir
 
 > File sinifi
 
