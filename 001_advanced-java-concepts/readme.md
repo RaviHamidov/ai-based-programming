@@ -262,7 +262,6 @@ Bir Java programi ishe dushduk'de JVM onun uchun bir neche ferqli sahede yaddash
 
 </div>
 
-
 ## Java Input/Output streams
 
-Java'da Input/Output streams movzu'su nisbeten ezbercilik olduqu uchun doc yazmaqa ehtiyac duymadim
+Java'da Input/Output streams movzu'su nisbeten ezbercilik olduqu uchun doc yazmaqa ehtiyac duymadim.
