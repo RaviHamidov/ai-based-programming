@@ -192,3 +192,77 @@ public class ThrowsExample {
 `Throwable`, proqramda baş verə biləcək bütün problemlərin (`Error` və `Exception`) ümumi tipidir.
 
 ## Java Memory Allocation: Heap and Stack
+
+Java'nin yaddasi nece idare etdiyini anlamaq ve effektiv xetasiz programlar yazmaq uchun vacibdir, Java'da 2 esas yaddash tipi var Stack ve Heap, bunlar ferqli meqsedlere xidmet edirler, bu movzu Java'nin yaddashi nece ayirdiqini, deyishenlerin nece saxlandgini ve JVM'in programlarinizi problemsiz islemesi uchun yaddashi nece idare etdiyini anlamaq'da komek edecek
+
+Bir Java programi ishe dushduk'de JVM onun uchun bir neche ferqli sahede yaddash ayirir:
+
+- `Method area` - class'lari, method'lari ve Literal'lari _constant pool_-da saxlayir
+- `Heap` - Object'leri ve Array'leri saxlyr
+- `Stack` - Local deyishenleri ve Method call info'sunu saxlyr
+- `PC register` - cari emrin adress'ini saxlyr
+- `Native Method Stacks` - Native metod call'lari uchun use olunur
+
+### Stack & Heap nedir ?
+
+> Stack nedir ?
+
+    Stack yaddashin *Last in First Out* prinsipi ile calishan bir hisse'sidir
+    - Stack'e yerleshdirilen son element, ordan ilk goturulen olur
+    - Sabit bir olchuye malik'dir
+    - Java'da her thread'in oz stack'i olur
+
+> Stack'de ne saxlanilir ?
+
+    - Primitiv value'ler example: float, boolean, int etc.
+    - Method cagrilanda stack'de yeni bir frame yaranir
+    - Local variables - which is called inside method
+    - Referance variables - heap'deki object'lere isare eden gostericiler
+    - Hemini Partial results
+
+> Stack Frame ( Method bitende stack frame silinir )
+
+    - Method Local Variables
+    - Method'a oturulen parametrler
+    - Method bitdikden sonra icranin hardan davam edceyi
+    - Call eden metodun stack frame'sine referans
+
+> Heap Memory
+
+    - JVM ishe dusende yaradilir
+    - Programin icrasi zamani olcusu deyise bilir
+    - bir programin thread'lari arasinda paylanir
+    - Heap'de esasen Array'ler, Object'ler, Instance variables, String pool
+
+> Memory Errors
+
+- Stack Overflow
+  - Stack yaddas'dan daha cox istifade etdikde adaten derin veya cox tekrarlanan rekursiyada bas verir
+- Out of Memory
+  - Heap'de obyekt yaratmaqa yer qalmadiqi halda bas verir
+- Memory leaks
+  - Artiq ehtiyac olmayan obyekt'lerin sirf referan olduqlari uchun garbage collector terefinden temizlene bilmemesi
+
+> Graphic for better UnderStanding
+
+| Xususiyyet                | Stack                                                                                  | Heap                                                                                   |
+| :------------------------ | :------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------- |
+| **Esas Vezifesi**         | Metod cagirislarini ve lokal deyisenleri idare etmek.                                  | Proqramin isleme aninda yaradilan obyektleri ve massivleri saxlamaq.                   |
+| **Melumat Novleri**       | Primitiv tipler (int, double, boolean...) ve obyekt referanslari (unvanlar).           | Obyektlerin ozu (`new Person()`), massivler (`new int[10]`) ve nusxe deyisenleri.      |
+| **Yaddas Idareetmesi**    | Avtomatik (LIFO - Son Giren Ilk Cixar). Metod bitdikde onun cercivesi (frame) silinir. | Avtomatik (Garbage Collector - Zibil Toplayici terefinden idare olunur).               |
+| **Olcu**                  | Sabit ve daha kicik. JVM terefinden baslangicda teyin edilir.                          | Dinamik ve daha boyuk. Proqram isleyerken boyuyub kicile biler.                        |
+| **Muraciet Sureti**       | Cox Suretli. Sade bir gosterici (pointer) ile idare olunur.                            | Daha Yavas. Daha murekkeb bir yaddas idareetmesi teleb edir.                           |
+| **Heyat Muddeti**         | Qisa omurlu. Aid oldugu metod islediyi muddetce yasayir.                               | Uzun omurlu. Zibil Toplayici silene qeder yasamaga davam edir.                         |
+| **Thread (Proses Axini)** | Her thread-in ozune mexsus bir Stek-i var.                                             | Butun thread-ler terefinden ortaq istifade edilir.                                     |
+| **Qarsilasilan Xeta**     | **StackOverflowError:** Cox sayda metod cagrisi (derin rekursiya) ile Stek dolur.      | **OutOfMemoryError:** Heap-de yeni obyekt ucun kifayet qeder yer qalmadiqda bas verir. |
+
+<div style="text-align:center" >
+
+![Heap & Stack](../Storage/HeapAndStack.png)
+
+</div>
+
+
+## Java Input/Output streams
+
+Java'da Input/Output streams movzu'su nisbeten ezbercilik olduqu uchun doc yazmaqa ehtiyac duymadim
