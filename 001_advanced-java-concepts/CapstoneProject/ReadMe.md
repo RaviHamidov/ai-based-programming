@@ -1,3 +1,13 @@
+```Markdown
+
+  📄DATA GİRİŞİ    ───▶    🔍 ANALIZ      ───▶    ⚠️ QIYMƏT      ───▶    📋HESABAT
+┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
+│ • CSV oxuma     │     │ • Qayda tətbiqi │     │ • Risk hesablama│     │ • Fayl yazma    │
+│ • Validasiya    │     │ • Pattern analiz│     │ • Səviyyə təyin │     │ • Alert göndər  │
+│ • Parse etmə    │     │ • Anomaly aşkar │     │ • Təsnifat      │     │ • Dashboard     │
+└─────────────────┘     └─────────────────┘     └─────────────────┘     └─────────────────┘
+```
+
 # Firildaqchiliqin Ashkarlanmasi (Fraud Detection) Sistemi – Proyekt Plani
 
 Bu sened, firildaqchi maliyye emeliyyatlarinin ashkar etmek uchun nezerde tutulmush proqram teminatinin planini tesvir edir.
